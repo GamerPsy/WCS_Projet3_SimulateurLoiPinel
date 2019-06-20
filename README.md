@@ -23,6 +23,9 @@ yarn encore dev
 php bin/console doctrine:database:create
 php bin/console doctrine:migrations:migrate
 php bin/console doctrine:fixtures:load
+sudo apt-get install xvfb -y
+sudo apt-get install libqt5webkit5 -y
+sudo apt-get install libqt5svg5 -y
 ```
 * Create an user admin
 `php bin/console app:create-user <email> <password> <society>`
